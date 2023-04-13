@@ -1,0 +1,8 @@
+[Unit]
+Description=Virus Scan Web service
+
+[Service]
+ExecStart=/usr/local/bin/scanserver /scanning
+
+[Install]
+WantedBy=multi-user.target
